@@ -1,10 +1,13 @@
 
-
+import New from  "./new.jsx"
 function App() {
   
 
   return (
-    <h1>hello chocobee with vite</h1>
+    <>
+    <New />
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, officia.</p>
+    </>
   )
 }
 
