@@ -27,7 +27,7 @@ Overview: Color Changer is a dynamic React-based application that allows users t
 
 1. Follow these steps to set up the project on your local machine:
 
-2. Clone the repository: git clone https://github.com/your-username/color-changer.git
+2. Clone the repository: git clone https://github.com/Dina-Shanjida/color-changer.git
 
 3. Navigate to the project directory: cd color-changer
 
