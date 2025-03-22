@@ -1,12 +1,21 @@
-# React + Vite
+Color Changer 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview: Color Changer is a dynamic React-based application that allows users to change the background color of the webpage by clicking on buttons corresponding to specific colors. This project demonstrates the use of React hooks, event handling, and Tailwind CSS for efficient styling.
 
-Currently, two official plugins are available:
+🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. React – A JavaScript library for building interactive UIs.
 
-## Expanding the ESLint configuration
+2. Tailwind CSS – A utility-first CSS framework for modern styling.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. JavaScript – The core programming language for interactivity.
+
+📌 Features
+
+1. Change the background color dynamically with button clicks.
+
+2. Uses useState to manage the background color state.
+
+3. Implements onClick events to trigger color changes.
+
+4. Styled with Tailwind CSS for a responsive and clean UI.
