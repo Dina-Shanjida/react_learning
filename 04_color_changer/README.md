@@ -45,39 +45,6 @@ Overview: Color Changer is a dynamic React-based application that allows users t
 3. Experiment with different colors to see instant changes.
    
 
-💻 Code Implementation
-
-App.js
-
-import React, { useState } from 'react';
-
-const colors = ['red', 'blue', 'green', 'yellow', 'purple'];
-
-function App() {
-  const [bgColor, setBgColor] = useState('white');
-
-  return (
-    <div className={`h-screen flex flex-col justify-center items-center`} style={{ backgroundColor: bgColor }}>
-      <h1 className="text-2xl font-bold mb-4">Color Changer</h1>
-      <div className="flex gap-4">
-        {colors.map((color) => (
-          <button
-            key={color}
-            onClick={() => setBgColor(color)}
-            className={`px-4 py-2 rounded text-white`} 
-            style={{ backgroundColor: color }}
-          >
-            {color}
-          </button>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export default App;
-
-
 🛠️ Contributing
 
 We welcome contributions from the community! Follow these steps:
