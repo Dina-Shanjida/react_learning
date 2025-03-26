@@ -19,9 +19,10 @@ function App() {
   // actual change in theme
 
   useEffect(() => {
-    document.querySelector('html').classList.remove("light", "dark")
-    document.querySelector('html').classList.add(themeMode)
-  }, [themeMode])
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(themeMode);
+  }, [themeMode]);
+  
   
 
   return (

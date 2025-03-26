@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      --color-bg: beige;
+      --color-text: navy;
+    }
+    .dark {
+      --color-bg: black;
+      --color-text: beige;
+    }
+  }
+  
+  .card {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  
