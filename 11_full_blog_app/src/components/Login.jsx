@@ -5,7 +5,7 @@ import {Button} from "./Button"
 import {Input} from "./Input"
 import {Logo} from "./Logo"
 import {useDispatch} from "react-redux"
-import authService from "../appwrite/authService"
+import authService from "../appwrite/auth"
 import {set, useForm} from "react-hook-form"
 
 function Login() {
