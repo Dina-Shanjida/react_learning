@@ -18,14 +18,19 @@ The main goal of this repository was to have a place where I could:
 ✨ Topics Covered
 
 🧩 React Components
+
 🧵 Props and State Management
+
 🎣 React Hooks (useState, useEffect, etc.)
+
 🗺️ Basic Routing with React Router
+
 ⚡ Small practice projects and demos
 
 🛠️ Tech Stack
 
 Language: JavaScript (React.js)
+
 Tools: Visual Studio Code (VS Code)
 
 🚀 How to Use
